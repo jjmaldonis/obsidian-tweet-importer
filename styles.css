@@ -1,8 +1,23 @@
-/*
+.url-importer-container {
+    display: grid;
+}
 
-This CSS file will be included with your plugin, and
-available in the app when your plugin is enabled.
+.url-importer-container input {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border: 1px solid #555555;
+    border-radius: 8px;
+    padding: 8px;
+}
 
-If your plugin does not need CSS, delete this file.
+.url-importer-container .url-input {
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
 
-*/
+.url-importer-container .submit-button {
+    margin-top: 8px;
+    margin-bottom: 24px;
+    width: fit-content;
+    justify-self: center;
+}
